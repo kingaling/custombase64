@@ -8,5 +8,5 @@ But if you can peek into the executable that is performing the encoding, you may
 
 There are tools out there from people like <a href="http://www.kahusecurity.com/">Kahu Security</a> that can decode using custom charsets.
 For decoding a couple hundred bytes of encoded data, that tool is great.
-But for large files >= 1 MB I have witnessed etreme slowness. So another excuse to code up some python. :)
+But for large files >= 1 MB I have witnessed extreme slowness. So another excuse to code up some python. :)
 
