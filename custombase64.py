@@ -5,6 +5,11 @@ import random
 #  A new custom charset
 #  Change this guy to desired string. Append the "=" char if you also want to possibly change its location.
 cuscharset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+#cuscharset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz+/"
+#cuscharset = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ+/"
+#cuscharset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/"
+#cuscharset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/"
+#cuscharset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/"
 
 #  The standard charset
 #  If you added an "=" char, or some other char to cuscharst above, make sure to add it here as well.
@@ -47,6 +52,8 @@ plaintext = "Some string to be base64 encoded."
 
 #  Encode the plaintext string
 enc = dataencode(plaintext)
+#enc = 'WGtECM0UDeq9CGs3eHwGriEFqdYIrjgGvdw5qSEGrTkIrTU4vdrFqcEHpjkIqTC4'
+
 #  Decode back into plaintext string
 dec = datadecode(enc)
 
